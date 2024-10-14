@@ -13,8 +13,8 @@
       while ($breed = $breeds->fetch_assoc()) {
         ?>
         <tr>
-          <td><?php echo $instructor['idbreed']; ?></td>
-          <td><?php echo $instructor['breedname']; ?></td>
+          <td><?php echo $breed['idbreed']; ?></td>
+          <td><?php echo $breed['breedname']; ?></td>
         </tr>
       <?php
       }
