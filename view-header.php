@@ -20,7 +20,7 @@
           <a class="nav-link active" aria-current="page" href="/">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="breed.php">Breed</a>
+          <a class="nav-link" href="breeds.php">Breeds</a>
         </li>
                 <li class="nav-item">
           <a class="nav-link" href="color.php">Colors</a>
