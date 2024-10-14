@@ -20,16 +20,16 @@
           <a class="nav-link active" aria-current="page" href="/">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="post.php">Post</a>
+          <a class="nav-link" href="breed.php">Breed</a>
         </li>
                 <li class="nav-item">
-          <a class="nav-link" href="post-result.php">Post results</a>
+          <a class="nav-link" href="color.php">Colors</a>
         </li>
                 <li class="nav-item">
-          <a class="nav-link" href="get.php">Get</a>
+          <a class="nav-link" href="size.php">Sizes</a>
         </li>
                 <li class="nav-item">
-          <a class="nav-link" href="get-result.php">Get result</a>
+          <a class="nav-link" href="dogbreed.php">Dogs with Breeds</a>
         </li>
       </ul>
     </div>
