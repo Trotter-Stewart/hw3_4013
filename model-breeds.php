@@ -3,7 +3,7 @@
 function selectBreeds() {
     try {
         $conn = get_db_connection();
-        $stmt = $conn->prepare("select idbreed, breedname from 'breed'");
+        $stmt = $conn->prepare("use dogs; select idbreed, breedname from breed");
         $stmt->execute();
         $result = $stmt->get_result();
         $conn->close();
