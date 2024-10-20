@@ -29,7 +29,7 @@
           <a class="nav-link" href="size.php">Sizes</a>
         </li>
                 <li class="nav-item">
-          <a class="nav-link" href="dogbreed.php">Dogs with Breeds</a>
+          <a class="nav-link" href="dogs.php">Dogs</a>
         </li>
       </ul>
     </div>
