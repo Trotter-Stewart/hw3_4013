@@ -10,7 +10,7 @@
     </thead>
     <tbody>
       <?php
-    while ($color = $colorss->fetch_assoc()) {
+    while ($color = $colors->fetch_assoc()) {
         ?>
         <tr>
       <td><?php echo $color['idcolor']; ?></td>
