@@ -4,7 +4,7 @@ require_once("model-size.php");
 $pageTitle = "Sizes";
 include "view-header.php";
 
-$colors = selectSize();
+$sizes = selectSize();
 include "view-size.php";
 
 include "view-footer.php";
