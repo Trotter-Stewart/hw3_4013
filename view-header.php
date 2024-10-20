@@ -23,7 +23,7 @@
           <a class="nav-link" href="breeds.php">Breeds</a>
         </li>
                 <li class="nav-item">
-          <a class="nav-link" href="color.php">Colors</a>
+          <a class="nav-link" href="colors.php">Colors</a>
         </li>
                 <li class="nav-item">
           <a class="nav-link" href="size.php">Sizes</a>
