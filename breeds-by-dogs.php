@@ -1,0 +1,11 @@
+<?php
+require_once("util-db.php");
+require_once("model-breeds-by-dogs.php");
+$pageTitle = "Breeds by Dog";
+include "view-header.php";
+
+$breeds = selectBreedsByDog($_GET['id']);
+include "view-breeds-by-dog.php";
+
+include "view-footer.php";
+?>
