@@ -23,7 +23,7 @@
       <td><?php echo $dog['dogcol']; ?></td>
       <td><?php echo $dog['dogbreed']; ?></td>
       <td><?php echo $dog['dogsize']; ?></td>
-      <td><a href="breeds-by-dogs.php?id=<?php echo $dog['dogbreed']; ?>">Breeds</a></td>
+      <td><a href="breeds-by-dog.php?id=<?php echo $dog['dogbreed']; ?>">Breeds</a></td>
         </tr>
       <?php
       }
