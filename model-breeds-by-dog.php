@@ -1,10 +1,10 @@
 <?php
 
-function selectBreedsByDog($dogbreed) {
+function selectBreedsByDog($iddog) {
     try {
         $conn = get_db_connection();
         $stmt = $conn->prepare("select idbreed, breedname from breed b join dog d on b.idbreed = d.dogbreed where iddog = ?");
-        $stmt->bind_param("i", $dogbreed);
+        $stmt->bind_param("i", $iddog);
         $stmt->execute();
         $result = $stmt->get_result();
         $conn->close();
