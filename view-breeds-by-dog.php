@@ -1,4 +1,4 @@
-<h1>Breeds</h1>
+<h1>Breed by Dog</h1>
 <div class="table-responsive">
   <table class="table">
     <thead>
