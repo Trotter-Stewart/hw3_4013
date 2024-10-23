@@ -5,6 +5,7 @@
       <tr>
         <th>BreedID</th>
          <th>BreedName</th>
+        <th></th>
       </tr>
      
     </thead>
@@ -15,6 +16,12 @@
         <tr>
           <td><?php echo $breed['idbreed']; ?></td>
           <td><?php echo $breed['breedname']; ?></td>
+          <td>
+            <form method="post" action="dogs-by-breed.php">
+              <input type="hidden" name="bid" value="<?php echo $breed['idbreed']; ?>">
+              <button type="submit" class="btn btn-primary">Dogs</button>
+            </form>
+          </td>
         </tr>
       <?php
       }
