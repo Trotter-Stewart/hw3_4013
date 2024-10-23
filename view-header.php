@@ -31,6 +31,10 @@
                 <li class="nav-item">
           <a class="nav-link" href="dogs.php">Dogs</a>
         </li>
+
+            <li class="nav-item">
+          <a class="nav-link" href="dogs-with-size.php">Dogs with size</a>
+        </li>
       </ul>
     </div>
   </div>
