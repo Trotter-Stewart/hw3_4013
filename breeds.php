@@ -9,9 +9,9 @@ if (isset($_POST['actionType'])){
   case "Add":
     if (insertBreeds($_POST['breedName']))
     {
-        echo '<div class="alert alert-success" role="alert">Breed added.</div>"';
+        echo '<div class="alert alert-success" role="alert">Breed added.</div>';
     }else{
-      echo '<div class="alert alert-danger" role="alert">Error.</div>"';
+      echo '<div class="alert alert-danger" role="alert">Error.</div>';
     }
     break;
     
