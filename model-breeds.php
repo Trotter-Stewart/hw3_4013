@@ -17,7 +17,7 @@ function selectBreeds() {
 function insertBreeds($nameBreed) {
     try {
         $conn = get_db_connection();
-        $stmt = $conn->prepare("INSERT INTO breed('breedname') VALUES (?)");
+        $stmt = $conn->prepare("INSERT INTO 'breed' ('breedname') VALUES (?)");
         $stmt->bind_param("s", $nameBreed);
         $success = $stmt->execute();
         $conn->close();
