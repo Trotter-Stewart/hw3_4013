@@ -33,7 +33,7 @@
         </li>
 
             <li class="nav-item">
-          <a class="nav-link" href="dogs-with-size.php">Dogs with size</a>
+          <a class="nav-link" href="dogs-with-sizes.php">Dogs with size</a>
         </li>
       </ul>
     </div>
