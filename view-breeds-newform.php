@@ -20,6 +20,7 @@
               <label for="breedName" class="form-label">Breed name</label>
               <input type="text" class="form-control" id="breedName" name="breedName">
             </div>
+              <input type="hidden" name="actionType" value="Add">
             <button type="submit" class="btn btn-primary">Save</button>
         </form>
       </div>
