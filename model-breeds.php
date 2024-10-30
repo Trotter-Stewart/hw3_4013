@@ -31,7 +31,7 @@ function insertBreeds($nameBreed) {
 function updateBreeds($nameBreed, $bid) {
     try {
         $conn = get_db_connection();
-        $stmt = $conn->prepare("update 'dogs'.'breed' set 'breedname' = ?, where idbreed = ?");
+        $stmt = $conn->prepare("update breed set breedname = ?, where idbreed = ?");
         $stmt->bind_param("si", $nameBreed, $bid);
         $success = $stmt->execute();
         $conn->close();
@@ -45,7 +45,7 @@ function updateBreeds($nameBreed, $bid) {
 function deleteBreeds($bid) {
     try {
         $conn = get_db_connection();
-        $stmt = $conn->prepare("delete from 'dogs'.'breed' where idbreed = ?");
+        $stmt = $conn->prepare("delete from breed where idbreed = ?");
         $stmt->bind_param("i", $bid);
         $success = $stmt->execute();
         $conn->close();
