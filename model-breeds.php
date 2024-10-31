@@ -31,7 +31,7 @@ function insertBreeds($nameBreed) {
 function updateBreeds($nameBreed, $bid) {
     try {
         $conn = get_db_connection();
-        $stmt = $conn->prepare("update breed set breedname = '?' where (idbreed = ?)");
+        $stmt = $conn->prepare("update breed set breedname = ? where (idbreed = ?)");
         $stmt->bind_param("si", $nameBreed, $bid);
         $success = $stmt->execute();
         $conn->close();
