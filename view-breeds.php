@@ -29,6 +29,9 @@ include "view-breeds-newform.php";
           <td><?php echo $breed['idbreed']; ?></td>
           <td><?php echo $breed['breedname']; ?></td>
           <td>
+              <?php
+                    include "view-breeds-editform.php";
+              ?>
           </td>
           <td>
              <form method="post" action="">
