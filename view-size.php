@@ -1,4 +1,4 @@
-<h1>Sizes</h1>
+
 
 <div class = "row">
   <div class='col'>
