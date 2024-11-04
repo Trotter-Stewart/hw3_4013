@@ -34,7 +34,7 @@ include "view-sizes-newform.php";
       <td><?php echo $size['sizename']; ?></td>
      <td>
               <?php
-                    include "view-colors-editform.php";
+                    include "view-sizes-editform.php";
               ?>
           </td>
       <td>
