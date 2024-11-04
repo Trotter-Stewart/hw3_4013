@@ -23,7 +23,7 @@ if (isset($_POST['actionType'])){
     }
     break;
     case "Edit":
-    if (updateBreeds($_POST['colorName'], $_POST['cid']))
+    if (updateColors($_POST['colorName'], $_POST['cid']))
     {
         echo '<div class="alert alert-success" role="alert">Color edited.</div>';
     }else{
