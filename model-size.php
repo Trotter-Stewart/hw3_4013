@@ -42,7 +42,7 @@ function updateSizes($nameSize, $sid) {
     }
 }
 
-function deleteColors($sid) {
+function deleteSizes($sid) {
     try {
         $conn = get_db_connection();
         $stmt = $conn->prepare("delete from size where idsize = ?");
