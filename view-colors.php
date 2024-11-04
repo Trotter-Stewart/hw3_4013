@@ -44,12 +44,6 @@ include "view-colors-newform.php";
               </button>
             </form>
           </td>
-          <td>
-            <form method="post" action="dogs-by-breed.php">
-              <input type="hidden" name="did" value="<?php echo $breed['idbreed']; ?>">
-              <button type="submit" class="btn btn-primary">Dogs</button>
-            </form>
-          </td>
         </tr>
       <?php
       }
