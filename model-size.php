@@ -32,7 +32,7 @@ function updateSizes($nameSize, $sid) {
     try {
         $conn = get_db_connection();
         $stmt = $conn->prepare("update size set sizename = ? where (idsize = ?)");
-        $stmt->bind_param("si", $nameColor, $cid);
+        $stmt->bind_param("si", $nameSize, $sid);
         $success = $stmt->execute();
         $conn->close();
         return $success;
