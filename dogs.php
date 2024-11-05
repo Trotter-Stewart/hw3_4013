@@ -23,7 +23,7 @@ if (isset($_POST['actionType'])){
     }
     break;
     case "Edit":
-    if (updateDogs($_POST['dogName'], $_POST['dogCol'] $_POST['dogBreed'] $_POST['dogSize'] $_POST['did']))
+    if (updateDogs($_POST['dogName'], $_POST['dogCol'], $_POST['dogBreed'], $_POST['dogSize'], $_POST['did']))
     {
         echo '<div class="alert alert-success" role="alert">Breed edited.</div>';
     }else{
