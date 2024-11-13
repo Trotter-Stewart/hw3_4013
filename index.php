@@ -23,6 +23,11 @@ include "view-header.php";
   </p>
 </video>
 
+<div data-aos="fade-up">
+   <h2>Our Mission</h2>
+   <p>Creating the best home for dogs and their owners.</p>
+</div>
+
 <?php
 include "view-footer.php";
 ?>
