@@ -11,9 +11,7 @@ include "view-header.php";
     preload="auto"
     poster="//vjs.zencdn.net/v/oceans.png"
     data-setup='{}'>
-  <source src="https://www.pexels.com/video/woman-running-with-her-dog-2796084/" type="video/mp4"></source>
-  <source src="https://www.pexels.com/video/woman-running-with-her-dog-2796084/" type="video/webm"></source>
-  <source src="https://www.pexels.com/video/woman-running-with-her-dog-2796084/" type="video/ogg"></source>
+  <source src="https://videos.pexels.com/video-files/2796084/2796084-uhd_2560_1440_25fps.mp4" type="video/mp4"></source>
   <p class="vjs-no-js">
     To view this video please enable JavaScript, and consider upgrading to a
     web browser tha
