@@ -7,14 +7,6 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css" />
     <style>
-      body {
-      background-image: url('https://www.shutterstock.com/image-vector/dog-seamless-pattern-paws-bones-600nw-2350264459.jpg');
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-position: center;
-      height: 100vh;
-      overflow: hidden;
-      }
     </style>
   </head>
   <body>
