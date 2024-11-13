@@ -8,14 +8,18 @@
     <link href="//vjs.zencdn.net/8.19.1/video-js.min.css" rel="stylesheet">
     <script src="//vjs.zencdn.net/8.19.1/video.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css" />
-    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
-    <script>AOS.init();</script>
     <style>
       #my-player {
           display: block;
           margin: 0 auto;
           width: 800px;
     }
+      body {
+      background-image: url('https://www.shutterstock.com/image-vector/dog-seamless-pattern-paws-bones-600nw-2350264459.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      }
     </style>
   </head>
   <body>
