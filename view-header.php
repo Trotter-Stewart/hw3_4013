@@ -5,8 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title><?= $pageTitle?></title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link href="//vjs.zencdn.net/8.19.1/video-js.min.css" rel="stylesheet">
-    <script src="//vjs.zencdn.net/8.19.1/video.min.js"></script>
   </head>
   <body>
     <div class="container">
@@ -41,22 +39,3 @@
     </div>
   </div>
 </nav>
-      <h1>The Dawg House</h1>
-<video
-    id="my-player"
-    class="video-js"
-    controls
-    preload="auto"
-    poster="//vjs.zencdn.net/v/oceans.png"
-    data-setup='{}'>
-  <source src="https://www.pexels.com/video/west-highland-white-terrier-walking-on-lawn-grass-1182756/" type="video/mp4"></source>
-  <source src="https://www.pexels.com/video/west-highland-white-terrier-walking-on-lawn-grass-1182756/" type="video/webm"></source>
-  <source src="https://www.pexels.com/video/west-highland-white-terrier-walking-on-lawn-grass-1182756/" type="video/ogg"></source>
-  <p class="vjs-no-js">
-    To view this video please enable JavaScript, and consider upgrading to a
-    web browser that
-    <a href="https://videojs.com/html5-video-support/" target="_blank">
-      supports HTML5 video
-    </a>
-  </p>
-</video>
