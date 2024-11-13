@@ -41,6 +41,7 @@
     </div>
   </div>
 </nav>
+      <h1>The Dawg House</h1>
 <video
     id="my-player"
     class="video-js"
