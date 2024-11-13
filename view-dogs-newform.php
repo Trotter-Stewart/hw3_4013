@@ -19,6 +19,7 @@
               <label for="dogName" class="form-label">Dog name</label>
               <?php
                   $dogList = selectDogsForInput();
+                  $selectDog = 0;
                   include "view-dog-input-list.php"
                   ?>
             </div>
