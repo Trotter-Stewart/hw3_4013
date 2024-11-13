@@ -16,7 +16,7 @@ include "view-header.php";
   <source src="https://www.pexels.com/video/woman-running-with-her-dog-2796084/" type="video/ogg"></source>
   <p class="vjs-no-js">
     To view this video please enable JavaScript, and consider upgrading to a
-    web browser that
+    web browser tha
     <a href="https://videojs.com/html5-video-support/" target="_blank">
       supports HTML5 video
     </a>
