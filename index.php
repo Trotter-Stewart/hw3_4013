@@ -9,7 +9,7 @@ include "view-header.php";
     class="video-js"
     controls
     preload="auto"
-    poster="//vjs.zencdn.net/v/oceans.png"
+    poster="https://www.publicdomainpictures.net/pictures/140000/nahled/3d-dog-1443867528bL9.jpg"
     data-setup='{}'
     width="640"
     height="360">
