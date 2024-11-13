@@ -10,7 +10,9 @@ include "view-header.php";
     controls
     preload="auto"
     poster="//vjs.zencdn.net/v/oceans.png"
-    data-setup='{}'>
+    data-setup='{}'
+    width="640"
+    height="360">
   <source src="https://videos.pexels.com/video-files/2796084/2796084-uhd_2560_1440_25fps.mp4" type="video/mp4"></source>
   <p class="vjs-no-js">
     To view this video please enable JavaScript, and consider upgrading to a
