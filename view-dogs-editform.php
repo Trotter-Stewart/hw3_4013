@@ -19,7 +19,11 @@
         <form method="post" action="">
             <div class="mb-3">
               <label for="dogName<?php echo $dog['iddog']; ?>" class="form-label">Dog name</label>
-              <input type="text" class="form-control" id="dogName<?php echo $dog['iddog']; ?>" name="dogName" value="<?php echo $dog['dogname']; ?>">
+                <?php
+                  $dogList = selectDogsForInput();
+                  $selectDog = $dog['iddog'];
+                  include "view-dog-input-list.php"
+                  ?>
             </div>
             <div class="mb-3">
               <label for="dogCol<?php echo $dog['iddog']; ?>" class="form-label">Dog color #</label>
