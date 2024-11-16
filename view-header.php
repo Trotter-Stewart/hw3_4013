@@ -28,6 +28,13 @@
         margin: 0; 
         padding: 0;
       }
+      th
+      {
+        background-color: #42A5F5;
+        color: white;
+        padding: 10px; 
+        border-radius: 5px;
+      }
     </style>
   </head>
   <body>
