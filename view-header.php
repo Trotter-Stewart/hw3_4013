@@ -20,6 +20,14 @@
         padding: 10px; 
         border-radius: 5px;
       }
+      body 
+      {
+        background-color: #FFFFFF; /* Clean white */
+        color: #333; /* Dark gray text for readability */
+        font-family: Arial, sans-serif; /* Optional: Set a clean font */
+        margin: 0; /* Remove default margins */
+        padding: 0;
+      }
     </style>
   </head>
   <body>
