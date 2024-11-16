@@ -10,10 +10,10 @@
   new Chart(ctx, {
     type: 'bar',
     data: {
-      labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+      labels: ['Richard', 'Teacup', 'Bart'],
       datasets: [{
-        label: '# of Votes',
-        data: [12, 19, 3, 5, 2, 3],
+        label: '# of Treats',
+        data: [10, 3, 30],
         borderWidth: 1
       }]
     },
