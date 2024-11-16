@@ -22,10 +22,10 @@
       }
       body 
       {
-        background-color: #FFFFFF; /* Clean white */
-        color: #333; /* Dark gray text for readability */
-        font-family: Arial, sans-serif; /* Optional: Set a clean font */
-        margin: 0; /* Remove default margins */
+        background-color: #FFFFFF;
+        color: #333;
+        font-family: Arial, sans-serif; 
+        margin: 0; 
         padding: 0;
       }
     </style>
