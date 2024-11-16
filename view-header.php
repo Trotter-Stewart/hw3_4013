@@ -28,7 +28,7 @@
         margin: 0; 
         padding: 0;
       }
-      table
+      .table
       {
         background-color: #F5F5F5;
         border-radius: 8px; 
