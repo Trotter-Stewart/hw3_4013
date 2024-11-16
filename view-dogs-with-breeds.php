@@ -27,3 +27,6 @@
       }
       ?>
 </div>
+<?php
+      include "chart.php";
+?>
