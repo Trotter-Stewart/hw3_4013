@@ -25,7 +25,7 @@ include "view-dogs-newform.php";
       </tr>
      
     </thead>
-    <tbody>
+    <tbody style= "background-color: #F5F5F5; border-radius: 8px; overflow: hidden;">
       <?php
     while ($dog = $dogs->fetch_assoc()) {
         ?>
