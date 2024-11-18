@@ -17,11 +17,7 @@
         <form method="post" action="">
             <div class="mb-3">
               <label for="dogName" class="form-label">Dog name</label>
-            <?php
-                 // $dogList = selectDogsForInput();
-                  //$selectDog = 0;
-                  //include "view-dog-input-list.php"
-                  ?>
+              <input type="string" class="form-control" id="dogname" name="dogName">
             </div>
             <div class="mb-3">
               <label for="dogCol" class="form-label">Dog color #</label>
