@@ -10,7 +10,7 @@
   new Chart(ctx, {
     type: 'bar',
     data: {
-      labels: ['Richard', 'Teacup', 'Bart'],
+      labels: [<?php echo $dog['dogname']; ?>],
       datasets: [{
         label: '# of Treats',
         data: [10, 3, 30],
