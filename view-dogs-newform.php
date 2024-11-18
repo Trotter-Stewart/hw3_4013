@@ -17,10 +17,10 @@
         <form method="post" action="">
             <div class="mb-3">
               <label for="dogName" class="form-label">Dog name</label>
-              <?php
-                  $dogList = selectDogsForInput();
-                  $selectDog = 0;
-                  include "view-dog-input-list.php"
+            <?php
+                 // $dogList = selectDogsForInput();
+                  //$selectDog = 0;
+                  //include "view-dog-input-list.php"
                   ?>
             </div>
             <div class="mb-3">
