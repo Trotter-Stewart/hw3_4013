@@ -15,10 +15,10 @@
   new Chart(ctx, {
     type: 'bar',
     data: {
-      labels:
+      labels: ['Dog Cards'],
       datasets: [{
         label: '# of Dogs',
-        data: numCards,
+        data: [numCards],
         borderWidth: 1
       }]
     },
