@@ -15,7 +15,7 @@
   new Chart(ctx, {
     type: 'bar',
     data: {
-      labels: [],
+      labels:
       datasets: [{
         label: '# of Dogs',
         data: numCards,
