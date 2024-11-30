@@ -30,7 +30,7 @@ include "view-header.php";
         </div>
     </div>
     <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
+        <img src="https://i.pinimg.com/originals/00/a3/4e/00a34e111574291422d03c95642f69e0.jpg" class="card-img-top" alt="...">
         <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -38,7 +38,7 @@ include "view-header.php";
         </div>
     </div>
     <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
+        <img src="https://www.pedigreefoundation.org/media/uploads/2024/03/Secondary-Image-v2.jpg" class="card-img-top" alt="...">
         <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
