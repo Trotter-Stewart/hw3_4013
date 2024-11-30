@@ -22,7 +22,7 @@ include "view-header.php";
         </div>
     </div>
     <div class="card" style="width: 18rem;">
-        <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Flovepawz.com%2Fpages%2Fdog-size-chart&psig=AOvVaw03NgDNS-Lr8tL0LiooeH2J&ust=1733085493672000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMiyrN70hIoDFQAAAAAdAAAAABAE" class="card-img-top" alt="...">
+        <img src="https://cdn.shopify.com/s/files/1/0505/9284/1924/files/sizingweight_480x480.jpg?v=1635711563" class="card-img-top" alt="...">
         <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
