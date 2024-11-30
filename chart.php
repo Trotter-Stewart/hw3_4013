@@ -5,15 +5,20 @@
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
 <script>
+  const card = document.querySelectorAll('.card');
+
+  const numCards = card.length;
+
+  
   const ctx = document.getElementById('myChart');
 
   new Chart(ctx, {
     type: 'bar',
     data: {
-      labels: [<?php echo $dog['dogname']; ?>],
+      labels: [],
       datasets: [{
-        label: '# of Treats',
-        data: [10, 3, 30],
+        label: '# of Dogs',
+        data: numCards,
         borderWidth: 1
       }]
     },
